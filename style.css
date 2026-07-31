@@ -15,3 +15,46 @@ img {
     border: 5px solid #000000; 
     border-radius: 8px;        
 }
+.caixa{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.caixote{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 10px #888888;
+
+}
+
+.caixote img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.item h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item p{
+    padding: 5px;
+    text-align: justify;
+}
+
+button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color:dodgerblue;
+}
+
