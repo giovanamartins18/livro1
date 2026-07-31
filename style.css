@@ -30,9 +30,9 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid gray;
+    border: 1px solid rgb(14, 13, 13);
     border-radius: 15px;
-    box-shadow: 2px 2px 5px 10px #888888;
+    box-shadow: 2px 2px 5px 10px  #adb3b4;
 
 }
 
@@ -55,6 +55,36 @@ img {
 button{
     padding: 10px;
     border-radius: 15px;
-    background-color:dodgerblue;
+    background-color:rgb(123, 125, 128);
 }
+
+body {
+  background-color: #a3a3a3;
+}
+
+.caixote{
+  background-color: #b1b9b9; 
+}
+
+
+  h1{
+    font-size:40px;
+    color:rgb(0, 0, 0);
+    font-family: 'Apple Chancery', curce;
+  }
+
+   h3{
+    font-size:35px;
+    color:rgb(0, 0, 0);
+   }
+
+   body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK9bHXI1t5K4IHG4w4jSxH9Lt8cn--f3dZJszVEggSwCIpBmV2W9PXWEUR&s=10");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+
 
